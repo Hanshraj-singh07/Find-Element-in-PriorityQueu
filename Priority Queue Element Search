@@ -9,9 +9,8 @@ public class PriorityQueueSearch {
         pq.add(15);
         pq.add(30);
         pq.add(5);
+        int target = 15;
 
-        int target = 15;
-        int target = 15;
         if (pq.contains(target)) {
             System.out.println("Element " + target + " found in the PriorityQueue.");
         } else {
